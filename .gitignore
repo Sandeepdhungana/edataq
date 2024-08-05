@@ -1,0 +1,37 @@
+# Python related
+*.pyc
+*.pyo
+*.pyd
+*.env
+__pycache__/
+instance/
+*.egg-info/
+dist/
+build/
+
+# Flask specific
+instance/
+*.log
+*.db
+*.sqlite3
+
+# Node related
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# React specific
+/build
+/coverage
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# MacOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
