@@ -1,0 +1,8 @@
+.log-card .ant-tabs-content-holder {
+  overflow-y: auto;
+  max-height: 20rem;
+}
+
+.progressbar {
+    width: 40%;
+}

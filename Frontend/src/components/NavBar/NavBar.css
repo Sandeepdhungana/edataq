@@ -1,0 +1,23 @@
+.navbar-header {
+  display: flex;
+  align-items: center;
+  background-color: #001529;
+  height: 80px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  height: 100%;
+}
+.logo >a {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-image {
+  height: 70%;
+}

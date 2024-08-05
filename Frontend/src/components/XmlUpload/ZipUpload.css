@@ -1,0 +1,54 @@
+.body-wrapper {
+  padding: 24px;
+  background-color: #f0f2f5;
+  min-height: 100vh;
+}
+
+.input-card,
+.table-card {
+  height: 100%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.ant-card-body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.ant-form {
+  flex-grow: 1;
+}
+
+.submit-button {
+  margin-right: 8px;
+}
+
+.ant-table {
+  margin-top: 16px;
+}
+
+.ant-form-item-label > label {
+  font-weight: 600;
+}
+
+.ant-typography {
+  margin-bottom: 24px;
+}
+
+.ant-row:not(:first-child) {
+  margin-top: 24px;
+}
+
+.form-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+@media (max-width: 991px) {
+  .input-card,
+  .table-card {
+    margin-bottom: 24px;
+  }
+}

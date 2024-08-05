@@ -1,0 +1,29 @@
+.sidebar {
+    background-color: #001529;
+  }
+  
+  .logo {
+    height: 64px;
+    margin: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .logo img {
+    width: 100%;
+    max-width: 120px;
+  }
+  
+  @media (max-width: 768px) {
+    .logo img {
+      max-width: 100px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .logo img {
+      max-width: 80px;
+    }
+  }
+  
