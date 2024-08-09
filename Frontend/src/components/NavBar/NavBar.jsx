@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Layout, Menu, Tooltip } from "antd";
 import "./NavBar.css";
-import logo from "../../assets/images/logo.png";
+import logo from "../../assets/images/logo2.png";
 import { Link, useLocation } from "react-router-dom";
 
 const { Header, Sider, Content } = Layout;
